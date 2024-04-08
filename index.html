@@ -1,0 +1,78 @@
+<inp<!DOCTYPE html>
+    <html>
+    
+    <head>
+      <title>JavaScript Intro</title>
+    
+    </head>
+    
+    <body id = gradient>
+    <h4 id="date"></h4>
+    <h4 id = "time"></h4
+    <p>Log In: <input type = "text" id = "enterName">
+      <button id = "nameBtn">Enter</button>
+    </p>
+    <p id = "greeting"></p>
+    
+    <hr>
+    
+    <h3>Personalization</h3>
+      <p>Music: <input type = "text" id = "enterMusic" placeholder="chill/classical/pop">
+        <button id = "musicBtn">Play</button>
+        <button id = "pauseBtn" disabled>Pause</button>
+      </p>
+      <p id = "musicChoice"></p>
+      <button id = "randomSpotifyBtn">Choose from a random Spotify Playlist!</button>
+      <iframe id = "spotifyIframe" src="" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    
+      <p> Background: 
+        <input class = "color1" type = "color" name = "color1" value = "#CAF2F7">
+        <input class = "color2" type = "color" name = "color2" value = "#EAE8FC">
+        <button id = "random">Random Gradient</button>
+        <button id = "auto">Auto Change</button>
+        <button id = "stop1">Stop Auto</button>
+      </p>
+      
+    <hr>
+        
+    <h3>Level</h3>
+      <input type="radio" name="level" id="e" value=3 checked><label for="e" >Easy</label>
+      <input type="radio" name="level" id="m" value=10><label for="m">Medium</label>
+      <input type="radio" name="level" id="h" value=100><label for="h">Hard</label>
+    
+      <button id="playBtn" disabled>Play</button>
+    
+      <h3 id="msg">Select a Level</h3>
+      <p id = "sidemsg"></p>
+      <input type="text" id="guess"> 
+      <button id="guessBtn" disabled>Guess</button>
+      <button id="giveUp" disabled>Give Up</button>
+      <h4 id = "timer">Timer: 0:00</h4>
+    
+      <hr>
+      
+      <h3>Stats</h3>
+      <p id = "wins">Total Games Won: 0</p>
+      <p id = "avrScore">Average Score: 0</p>
+      <p id = "avgTime">Average Time: 0</p>
+      <p>Leaderboard</p>
+      <ol>
+        <li name = "leaderboard">99
+        <li name = "leaderboard">99
+        <li name = "leaderboard">99
+      </ol>
+    
+      <h4>Fastest Plays</h4>
+      <ol>
+        <li name = "timelist"></li>
+        <li name = "timelist"></li>
+        <li name = "timelist"></li>
+        <li name = "timelist"></li>
+        <li name = "timelist"></li>
+      </ol>
+    
+      <script src="script.js"></script>
+    </body>
+    
+    </html>
+    
